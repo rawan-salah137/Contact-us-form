@@ -1,0 +1,83 @@
+:root {
+    --lighter-green: hsl(148, 38%, 91%);
+    --medium-green: hsl(169, 82%, 27%);
+    --red: hsl(0, 66%, 54%);
+    --white: hsl(0, 0%, 100%);
+    --medium-grey: hsl(186, 15%, 59%);
+    --darker-grey:hsl(187, 24%, 22%);
+    --light: #d8dbe0;
+    --dark: #28292c;
+    --link: rgb(27, 129, 112);
+    --link-hover: rgb(24, 94, 82);
+}
+/* Dark Mode */
+body.dark-mode {
+    background-color: hsl(189, 36%, 10%);
+}
+body .dark {
+    border: none;
+    font-size: 30px;
+}
+body.dark-mode .dark {
+    color: white;
+}
+
+body {
+    background-color: var(--medium-grey);
+}
+form {
+    background-color: var(--white);
+    max-width: 600px;
+}
+.input {
+    border: 1px solid var(--medium-grey);
+}
+form h6 {
+    color: var(--darker-grey);
+    margin-left: 10px;
+}
+form h2 {
+    color: var(--darker-grey);
+}
+form span {
+    font-size: 13px;
+}
+/* Start radio */
+.radio {
+    border: 1px solid var(--darker-grey);
+    width: 200px;
+    height: 35px;
+}
+/* End radio */
+/* Start Check */
+.checkbox {
+    font-size: 13px;
+}
+/* End Check */
+/* start btn */
+.main-btn {
+    background-color: var(--medium-green);
+    color: var(--white);
+}
+.main-btn:hover {
+    background-color: var(--darker-grey);
+    color: var(--white);
+}
+/* end btn */
+/* start Errors */
+.error {
+    color: var(--red);
+}
+/* End Errors */
+/* Start Focus */
+.input:focus {
+    outline: 1px solid var(--medium-green);
+}
+/* End Focus */
+/* Start alert */
+.alert {
+    background-color: var(--darker-grey);
+}
+/* End alert */
+
+
